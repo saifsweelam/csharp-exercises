@@ -8,10 +8,7 @@ int sum = 0;
 
 for (int i = 1; i <= 3; i++) {
     Console.WriteLine($"Enter Number {i}:");
-    string? input = Console.ReadLine();
-    if (input != null) {
-        sum += int.Parse(input);
-    }
+    sum += Convert.ToInt32(Console.ReadLine());
 }
 
 Console.WriteLine(sum);
