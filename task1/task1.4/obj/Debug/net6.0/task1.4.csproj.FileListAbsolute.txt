@@ -1,0 +1,15 @@
+H:\Programming\C#\exercises\task1\task1.4\bin\Debug\net6.0\task1.4.exe
+H:\Programming\C#\exercises\task1\task1.4\bin\Debug\net6.0\task1.4.deps.json
+H:\Programming\C#\exercises\task1\task1.4\bin\Debug\net6.0\task1.4.runtimeconfig.json
+H:\Programming\C#\exercises\task1\task1.4\bin\Debug\net6.0\task1.4.dll
+H:\Programming\C#\exercises\task1\task1.4\bin\Debug\net6.0\task1.4.pdb
+H:\Programming\C#\exercises\task1\task1.4\obj\Debug\net6.0\task1.4.csproj.AssemblyReference.cache
+H:\Programming\C#\exercises\task1\task1.4\obj\Debug\net6.0\task1.4.GeneratedMSBuildEditorConfig.editorconfig
+H:\Programming\C#\exercises\task1\task1.4\obj\Debug\net6.0\task1.4.AssemblyInfoInputs.cache
+H:\Programming\C#\exercises\task1\task1.4\obj\Debug\net6.0\task1.4.AssemblyInfo.cs
+H:\Programming\C#\exercises\task1\task1.4\obj\Debug\net6.0\task1.4.csproj.CoreCompileInputs.cache
+H:\Programming\C#\exercises\task1\task1.4\obj\Debug\net6.0\task1.4.dll
+H:\Programming\C#\exercises\task1\task1.4\obj\Debug\net6.0\refint\task1.4.dll
+H:\Programming\C#\exercises\task1\task1.4\obj\Debug\net6.0\task1.4.pdb
+H:\Programming\C#\exercises\task1\task1.4\obj\Debug\net6.0\task1.4.genruntimeconfig.cache
+H:\Programming\C#\exercises\task1\task1.4\obj\Debug\net6.0\ref\task1.4.dll
