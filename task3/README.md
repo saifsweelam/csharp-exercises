@@ -44,9 +44,15 @@ struct Student {
         get { return courses.Length; }
     }
 
-    public Course this[int i] {
-        set { courses[i] = value; }
-        get { return courses[i]; }
+    public Course? this[string code] {
+        get {
+            foreach (Course course in courses) {
+                if (course.Code == code) {
+                    return course;
+                }
+            }
+            return null;
+        }
     }
 
     public double OverallDegree {
@@ -98,7 +104,7 @@ class Program {
         Course programming = new Course("CSE01", "Introduction to Programming", 100);
         Student seif = new Student(1, "Seif El-Din Sweilam", "male", math1, physics1, math2, physics2, programming);
 
-        DisplayStudent(seif);
+        DisplayStudent(seif, "BAS11", "CSE01");
 
         System.Console.WriteLine();
 
@@ -109,10 +115,10 @@ class Program {
         Course skills = new Course("GEN01", "Skills", 85);
         Student mohamed = new Student(2, "Mohamed Abdelfatah Selim", "male", math3, math4, control, os, skills);
 
-        DisplayStudent(seif);
+        DisplayStudent(mohamed, "BAS03", "CSE11", "CSE21");
     }
 
-    private static void DisplayStudent(Student student) {
+    private static void DisplayStudent(Student student, params string[] codes) {
         System.Console.WriteLine("----------------------------------------");
         System.Console.WriteLine("| ID: {0, 32} |", student.ID);
         System.Console.WriteLine("| Name: {0, 30} |", student.Name);
@@ -120,12 +126,14 @@ class Program {
         System.Console.WriteLine("| Degree: {0, 28} |", student.OverallDegree);
         System.Console.WriteLine("----------------------------------------");
 
-        for (int i = 0; i < student.CoursesCount; i++) {
-            Course course = student[i];
-            System.Console.WriteLine("| Code: {0, 30} |", course.Code);
-            System.Console.WriteLine("| Name: {0, 30} |", course.Name);
-            System.Console.WriteLine("| Degree: {0, 28} |", course.Degree);
-            System.Console.WriteLine("----------------------------------------");
+        foreach (string code in codes) {
+            Course? course = student[code];
+            if (course != null) {
+                System.Console.WriteLine("| Code: {0, 30} |", ((Course) course).Code);
+                System.Console.WriteLine("| Name: {0, 30} |", ((Course) course).Name);
+                System.Console.WriteLine("| Degree: {0, 28} |", ((Course) course).Degree);
+                System.Console.WriteLine("----------------------------------------");
+            }
         }
     }
 }
@@ -139,21 +147,9 @@ class Program {
 | Gender:                         male |
 | Degree:                         83.2 |
 ----------------------------------------
-| Code:                          BAS01 |
-| Name:                         Math 1 |
-| Degree:                           78 |
-----------------------------------------
 | Code:                          BAS11 |
 | Name:                      Physics 1 |
 | Degree:                           80 |
-----------------------------------------
-| Code:                          BAS02 |
-| Name:                         Math 2 |
-| Degree:                           82 |
-----------------------------------------
-| Code:                          BAS11 |
-| Name:                      Physics 2 |
-| Degree:                           76 |
 ----------------------------------------
 | Code:                          CSE01 |
 | Name:    Introduction to Programming |
@@ -170,10 +166,6 @@ class Program {
 | Name:                         Math 3 |
 | Degree:                           71 |
 ----------------------------------------
-| Code:                          BAS04 |
-| Name:                         Math 4 |
-| Degree:                           80 |
-----------------------------------------
 | Code:                          CSE11 |
 | Name:              Control Systems 1 |
 | Degree:                           78 |
@@ -181,9 +173,5 @@ class Program {
 | Code:                          CSE21 |
 | Name:            Operating Systems 1 |
 | Degree:                           95 |
-----------------------------------------
-| Code:                          GEN01 |
-| Name:                         Skills |
-| Degree:                           85 |
 ----------------------------------------
 ```
