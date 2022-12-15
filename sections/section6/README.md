@@ -1,10 +1,15 @@
-﻿/**
- * Section 6
- *
- * Write a program to find the cube of
- * any number using a private method
- */
+# Section 6 Home Assignment
 
+By **Seif El-Din Sweilam**
+
+## Required
+
+Write a program to find the cube of
+any number using a private method
+
+## Code
+
+```c#
 class Program {
     public static void Main(string[] args) {
         Program program = new Program();
@@ -15,3 +20,10 @@ class Program {
         return Math.Pow(n, 3);
     }
 }
+```
+
+## Runtime
+
+```
+343
+```
