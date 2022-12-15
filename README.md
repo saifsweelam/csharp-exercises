@@ -16,3 +16,7 @@ Mansoura University - Faculty of Engineering _(CSSED 26)_ Level 1
 ### [Section 2](./sections/section2/)
 ### [Section 3](./sections/section3/)
 ### [Section 4](./sections/section4/)
+### [Section 5](./sections/section5/)
+### [Section 6](./sections/section6/)
+### [Section 7](./sections/section7/)
+### [Section 8](./sections/section8/)
