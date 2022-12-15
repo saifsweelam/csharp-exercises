@@ -1,0 +1,15 @@
+H:\Programming\C#\exercises\sections\section7\bin\Debug\net6.0\section7.exe
+H:\Programming\C#\exercises\sections\section7\bin\Debug\net6.0\section7.deps.json
+H:\Programming\C#\exercises\sections\section7\bin\Debug\net6.0\section7.runtimeconfig.json
+H:\Programming\C#\exercises\sections\section7\bin\Debug\net6.0\section7.dll
+H:\Programming\C#\exercises\sections\section7\bin\Debug\net6.0\section7.pdb
+H:\Programming\C#\exercises\sections\section7\obj\Debug\net6.0\section7.csproj.AssemblyReference.cache
+H:\Programming\C#\exercises\sections\section7\obj\Debug\net6.0\section7.GeneratedMSBuildEditorConfig.editorconfig
+H:\Programming\C#\exercises\sections\section7\obj\Debug\net6.0\section7.AssemblyInfoInputs.cache
+H:\Programming\C#\exercises\sections\section7\obj\Debug\net6.0\section7.AssemblyInfo.cs
+H:\Programming\C#\exercises\sections\section7\obj\Debug\net6.0\section7.csproj.CoreCompileInputs.cache
+H:\Programming\C#\exercises\sections\section7\obj\Debug\net6.0\section7.dll
+H:\Programming\C#\exercises\sections\section7\obj\Debug\net6.0\refint\section7.dll
+H:\Programming\C#\exercises\sections\section7\obj\Debug\net6.0\section7.pdb
+H:\Programming\C#\exercises\sections\section7\obj\Debug\net6.0\section7.genruntimeconfig.cache
+H:\Programming\C#\exercises\sections\section7\obj\Debug\net6.0\ref\section7.dll

@@ -1,11 +1,16 @@
-﻿/**
- * Section 7
- *
- * Write a program to make a method that
- * returns the summation and multiplication of
- * an array of length 4*4 using out parameters
- */
+# Section 7 Home Assignment
 
+By **Seif El-Din Sweilam**
+
+## Required
+
+Write a program to make a method that
+returns the summation and multiplication of
+an array of length 4*4 using `out` parameters
+
+## Code
+
+```c#
 class Program {
     public static void Main(string[] args) {
         double[,] matrix = ReadMatrix(4, 4);
@@ -36,3 +41,43 @@ class Program {
         return matrix;
     }
 }
+```
+
+## Runtime
+
+```
+Enter Element [0, 0]
+2
+Enter Element [0, 1]
+1
+Enter Element [0, 2]
+4
+Enter Element [0, 3]
+11
+Enter Element [1, 0]
+9
+Enter Element [1, 1]
+-5
+Enter Element [1, 2]
+-8
+Enter Element [1, 3]
+13
+Enter Element [2, 0]
+-12
+Enter Element [2, 1]
+8
+Enter Element [2, 2]
+9
+Enter Element [2, 3]
+2
+Enter Element [3, 0]
+4
+Enter Element [3, 1]
+-3
+Enter Element [3, 2]
+-2
+Enter Element [3, 3]
+11
+Matrix sum: 44
+Matrix product: -187878113280
+```
