@@ -1,18 +1,25 @@
-﻿/**
- * Section 8
- *
- * Write a program that includes a Car
- * structure including the following fields:
- * - Brand
- * - Price
- * - Year of production
- * And the following methods:
- * - A constructor to set default year to 2021
- * - A constructor to using 3 parameters
- * - A method to display the car information
- * Then create 2 objects in the main function
- */
+# Section 8 Home Assignment
 
+By **Seif El-Din Sweilam**
+
+## Required
+
+Write a program that includes a Car
+`struct` including the following:
+* Fields:
+  - Brand
+  - Price
+  - Year of production
+* Methods:
+  - A constructor to set default year to 2021
+  - A constructor to using 3 parameters
+  - A method to display the car information
+
+Then create 2 objects in the main function
+
+## Code
+
+```c#
 struct Car {
     private string brand;
     private double price;
@@ -43,3 +50,11 @@ class Program {
         System.Console.WriteLine(toyota);
     }
 }
+```
+
+## Runtime
+
+```
+Car(Brand:Suzuki, price:230000, year:2021)
+Car(Brand:Toyota, price:500000, year:2019)
+```
